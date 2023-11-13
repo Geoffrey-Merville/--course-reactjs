@@ -1,5 +1,7 @@
+import { ReactNode } from "react";
+
 interface AlertProps {
-    text: string; 
+  children: ReactNode;
 }
 
 export default AlertProps;
